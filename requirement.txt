@@ -2,3 +2,4 @@ Flask
 Pillow
 tensorflow
 tensorflow_hub
+gunicorn
