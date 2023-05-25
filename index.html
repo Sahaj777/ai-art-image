@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AI Art Image Generator</title>
+</head>
+<body>
+    <h1>AI Art Image Generator</h1>
+    <form action="/generate" method="POST" enctype="multipart/form-data">
+        <label for="content">Select Content Image:</label>
+        <input type="file" name="content" id="content" accept="image/*" required><br><br>
+        <label for="style">Select Style Image:</label>
+        <input type="file" name="style" id="style" accept="image/*" required><br><br>
+        <input type="submit" value="Generate Art Image">
+    </form>
+</body>
+</html>
